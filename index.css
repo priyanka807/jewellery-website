@@ -1,0 +1,286 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.jewellery_section{
+    display:flex;
+    justify-content: center;
+  
+  
+}
+.jewllery_section_main{
+    width: 627px;
+    padding: 0px 30px;
+   background-color: hsl(0, 0%, 44%);
+}
+.gold_collection_container,.browse_collection_container,.gift_collection_container,.newlooks_collection_container{
+    margin-top: 60px;
+text-align: center ;
+}
+.gold_collection_container>h2,.browse_collection_container>h2,.gift_collection_container>h2,.newlooks_collection_container>h2{
+    font-family: Italiana;
+    font-size: 24.39px;
+    font-weight: 400;
+    line-height: 28.73px;
+
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+   color: #FFF4E9;
+   margin-top: 10px;
+}
+.gold_collection_container>h4,.browse_collection_container>h4,.gift_collection_container>h4,.newlooks_collection_container>h4{
+    font-family: Mulish;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10.04px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+
+}
+.new_collection,.browse_collection,.gift_collection{
+     height: 102px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 60px;
+ }
+ .browse_collection>div>h6{
+    font-family: Mulish;
+font-size: 10.45px;
+font-weight: 400;
+line-height: 13.12px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+ }
+ .gift_collection{
+    gap:  20.9px !important;
+ }
+ .gift_collection_left,.gift_collection_right{
+    width: Hug (254.85px)px !important;
+    height: Hug (102.78px)px  !important;
+  display: flex;
+  justify-content: space-between;
+gap:6.97px;
+ }
+ .couple_paradise,.gold_lava,.gift_milestones,.signature_gifts{
+margin-top: 10px;
+}
+
+
+ .couple_paradise>h4,.gold_lava>h4,.gift_milestones>h4,.signature_gifts>h4{
+font-family: Italiana;
+font-size: 13.94px;
+font-weight: 400;
+line-height: 16.42px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+ }
+
+ .couple_paradise>h6,.gold_lava>h6,.gift_milestones>h6,.signature_gifts>h6{
+    margin-top: 7px;
+    font-family: Mulish;
+font-size:  7.97px;
+font-weight: 400;
+line-height: 13.75px;
+width: 110.19px;
+height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+width: 110.19px;
+height: 27px;
+
+ }
+ .couple_paradise>button,.gold_lava>button,.gift_milestones>button,.signature_gifts>button{
+    margin-top: 15px;
+    padding: 10.45px;
+    border-radius:0px 8.71px 0px 8.71px;
+    font-family: Mulish;
+    font-size: 6.97px;
+    font-weight: 700;
+    line-height: 8.75px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: #FFF4E9;
+border:none;
+    color: #312F30;
+
+ }
+ .newlooks_collection{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.new_collect{
+    width: 126px ;
+   height: 194px;
+   background-color: aquamarine;
+   margin-bottom: 70px;
+   text-align: center;
+}
+.new_collection_img{
+   height: 150px;
+   background-color: bisque;
+}
+
+.new_collection_content{
+    background: #1D1917;
+    padding: 10px 5px;
+   height: 44px;
+ 
+}
+.new_collection_img>div{
+    text-align: left;
+    padding: 5px ;
+}
+.new_collection_img>div>button{
+    padding: 3.48px 6.97px 3.48px 6.97px;
+   border: none;
+   border-radius: 43.55px;
+   background: #8B6E5C;
+   font-family: Satoshi;
+   font-size: 6.97px;
+   font-weight: 500;
+   line-height: 9.41px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   color: #FFFFFF;
+
+}
+.new_collection_content>h4{
+
+    font-family: Bodoni Moda;
+font-size: 10.45px;
+font-weight: 500;
+line-height: 15.94px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+}
+.new_collection_content>h6{
+
+    font-family: Satoshi;
+font-size: 6.97px;
+font-weight: 400;
+line-height: 9.41px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+padding-top: 3px;
+}
+.new_collection_content>h6>span{
+    font-family: Satoshi;
+font-size: 6.1px;
+font-weight: 400;
+line-height: 8.23px;
+text-align: left;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #717171;
+margin-left: 5px;
+}
+
+
+/* .diamond_frame{
+    width: Hug (263.92px)px;
+    height: Hug (10.45px)px;
+   margin-top: 60px;
+} */
+/* .main_jewellery_shop_container{
+    position: relative;
+    max-width: 627px;
+height: 429px;
+left: -1px;
+gap: 0px;
+opacity: 0.3px;
+background-image: url("images/Jewellery\ we\ love\ 1.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.navbar_container{
+    position: relative;
+    width: 561px;
+height: 38px;
+left: 32px;
+padding: 0px 8.24px 0px 8px;
+gap: 53.13px;
+opacity: 0px;
+background: #32303133;
+backdrop-filter: blur(6.968304634094238px);
+display:flex;
+justify-content: space-between;
+align-items: center;
+color: #FFF4E9;
+
+}
+.navbar_items>ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px; 
+    
+}
+.navbar_items>ul>li{
+    width: Hug (43.48px)px;
+height: Hug (10px)px;
+opacity: 0px;
+
+}
+.navbar_items>ul>li>img{
+    position: relative;
+    right: 5px;
+    width: 6px;
+height: 8.33px;
+top: 0.83px;
+
+
+}
+.navbar_items>ul>li>span{
+    font-family: Mulish;
+font-size: 8px;
+font-weight: 500;
+line-height: 10.04px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 30px;
+height: 10px;
+gap: 0px;
+opacity: 0px;
+
+}
+.navbar_left,.navbar_right{
+    position: relative;
+    width: Fixed (222px)px;
+height: Hug (10px)px;
+top: 14px;
+left: 8px;
+gap: 0px;
+display:flex ;
+justify-content: space-between;
+opacity: 0px;
+
+} */
+
+
+
+
