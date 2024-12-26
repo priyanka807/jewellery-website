@@ -4,10 +4,114 @@
     margin: 0;
     padding: 0;
 }
-.jewellery_section{
+
+.main_jewellery_shop_container{
+    width: 627px;
+    height: 429px;
+    background-image: url("images/Jewellery\ we\ love\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: #9A9A9A;
+    opacity: 30%; */
+    
+    /* backdrop-filter: blur(6.968304634094238px); */
+    
+    }
+    
+    .navbar_container{
+        position: relative;
+        width: 561px;
+    height: 38px;
+    left: 32px;
+    padding: 10px;
+    background: #32303133;
+    backdrop-filter: blur(6.968304634094238px);
+    color: #FFF4E9;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; 
+    }
+    .navbar_items>ul{
+      display:flex;
+    justify-content: space-between;
+    align-items: center;
+        list-style: none;
+    gap: 18px;
+        
+    }
+    .navbar_items>ul>li>span{
+        font-family: Mulish;
+        font-size: 8px;
+        font-weight: 500;
+    }
+
+    .simple_grafeful_container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 30px 40px 30px;
+    position: relative;
+    }
+      .simple_grafeful_first{
+        position: relative;
+        left: 50px;
+      }
+      .simple_grafeful_second{
+        top: -55px;
+        position: relative;
+        left: -20px;
+      }
+      .simple_grafeful_third{
+        position: relative;
+        left: 140px;
+        top: -230px;
+      }
+
+    .simple_grafeful_container_left{
+        width: 60%;
+    } 
+    .simple_grafeful_container_right{
+        width: 40%; 
+    }
+    .star{
+        text-align: right;
+    }
+  .simple_grafeful_container_right>h2{
+    font-family: Italiana;
+font-size: 57.97px;
+font-weight: 400;
+line-height: 70.97px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFF4E9;
+
+  }  
+  .simple_grafeful_container_right>p {
+    font-family: Mulish;
+    font-size: 10.45px;
+    font-weight: 400;
+    line-height: 13.12px;
+margin: 20px 0px;
+color: #FFF4E9;
+  }
+  .simple_grafeful_container_right>button {
+        font-family: Mulish;
+font-size: 6.97px;
+font-weight: 700;
+line-height: 8.75px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding: 10.45px ;
+border-radius: 0px 13.07px 0px 13.07px;
+border: none;
+
+    }
+.jewellery_section,.footer_main{
     display:flex;
     justify-content: center;
-  
+
   
 }
 .jewllery_section_main{
@@ -15,11 +119,11 @@
     padding: 0px 30px;
    background-color: hsl(0, 0%, 44%);
 }
-.gold_collection_container,.browse_collection_container,.gift_collection_container,.newlooks_collection_container{
-    margin-top: 60px;
+.gold_collection_container,.browse_collection_container,.gift_collection_container,.newlooks_collection_container,.latest_itdo{
+    margin-top: 50px;
 text-align: center ;
 }
-.gold_collection_container>h2,.browse_collection_container>h2,.gift_collection_container>h2,.newlooks_collection_container>h2{
+.gold_collection_container>h2,.browse_collection_container>h2,.gift_collection_container>h2,.newlooks_collection_container>h2,.latest_itdo>h2{
     font-family: Italiana;
     font-size: 24.39px;
     font-weight: 400;
@@ -30,7 +134,7 @@ text-align: center ;
    color: #FFF4E9;
    margin-top: 10px;
 }
-.gold_collection_container>h4,.browse_collection_container>h4,.gift_collection_container>h4,.newlooks_collection_container>h4{
+.gold_collection_container>h4,.browse_collection_container>h4,.gift_collection_container>h4,.newlooks_collection_container>h4,.latest_itdo>h4{
     font-family: Mulish;
     font-size: 8px;
     font-weight: 400;
@@ -46,7 +150,7 @@ text-align: center ;
      height: 102px;
      display: flex;
      justify-content: space-between;
-     margin-top: 60px;
+     margin-top: 35px;
  }
  .browse_collection>div>h6{
     font-family: Mulish;
@@ -96,7 +200,6 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #FFFFFF;
-width: 110.19px;
 height: 27px;
 
  }
@@ -121,14 +224,13 @@ border:none;
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin-top: 60px;
+    margin-top: 35px;
 }
 
 .new_collect{
     width: 126px ;
    height: 194px;
    background-color: aquamarine;
-   margin-bottom: 70px;
    text-align: center;
 }
 .new_collection_img{
@@ -197,90 +299,197 @@ text-decoration-skip-ink: none;
 color: #717171;
 margin-left: 5px;
 }
+.style_your_story{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
 
-
-/* .diamond_frame{
-    width: Hug (263.92px)px;
-    height: Hug (10.45px)px;
-   margin-top: 60px;
-} */
-/* .main_jewellery_shop_container{
-    position: relative;
-    max-width: 627px;
-height: 429px;
-left: -1px;
-gap: 0px;
-opacity: 0.3px;
-background-image: url("images/Jewellery\ we\ love\ 1.png");
-background-size: cover;
-background-repeat: no-repeat;
 }
 
-.navbar_container{
-    position: relative;
-    width: 561px;
-height: 38px;
-left: 32px;
-padding: 0px 8.24px 0px 8px;
-gap: 53.13px;
-opacity: 0px;
-background: #32303133;
-backdrop-filter: blur(6.968304634094238px);
-display:flex;
-justify-content: space-between;
-align-items: center;
+.style_your_story_content{
+    text-align: center;
+ color: #FFF4E9;
+ margin-top: 30px;
+}
+.style_your_story_content>h2{
+    font-family: Italiana;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60.97px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.style_your_story_content>h4{
+    font-family: Italiana;
+    font-size: 12px;
+    font-weight: 400;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    line-height: 20.97px;
+}
+.style_your_story_content>p{
+
+margin-top: 10px;
+    font-family: Mulish;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 13.04px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.bridal_beauty,.form{
+    display: flex;
+    justify-content: space-between;
+
+}
+.form{
+  
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.form>div>input{
+    width: 126px;
+border: none ;
+border-bottom:1px solid #FFF4E9 ;
+outline: none;
+background: transparent;
+padding: 3px 0px;
+}
+.form>div>input::placeholder{
+    color: #CACACA; 
+    opacity: 1;
+}
+.aboutus{
+    width: 178px !important;
+}
+.form>button{
+    background: #8B6E5C;
+    border-radius: 30px;
+    padding: 5px 10px;
+border: none;
+font-family: Mulish;
+font-size: 12px;
+font-weight: 500;
+line-height: 15.06px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 color: #FFF4E9;
 
 }
-.navbar_items>ul{
-    display:flex;
+.form>button>img{
+    padding-right: 5px;
+    width: 15.2px;
+
+
+}
+.footer{
+    background: #272321;
+    width: 627px;   
+}
+.footer1,.footer2{
+    display: flex;
     justify-content: space-between;
+    padding: 30px  30px 10px 30px ;
+    color: #CACACA;
+    gap: 20px;
+}
+.footer2{
+padding:5px 30px  !important;
+/* margin-bottom: 60px; */
+}
+.footer_left,.footer_mid,.footer_mid1,.footer_right{
+    width: 25%;
+}
+.footer_mid,.footer_mid1,.footer_right{
+    margin-top: 20px;
+}
+.footer_mid>h2,.footer_mid1>h2,.footer_right>h2{
+    margin-bottom: 20px;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.footer_mid>ul,.footer_mid1>ul,.footer_right>ul,.product_pvt_ltd_content,.footer2_mid{
     list-style: none;
-    gap: 10px; 
-    
-}
-.navbar_items>ul>li{
-    width: Hug (43.48px)px;
-height: Hug (10px)px;
-opacity: 0px;
-
-}
-.navbar_items>ul>li>img{
-    position: relative;
-    right: 5px;
-    width: 6px;
-height: 8.33px;
-top: 0.83px;
-
-
-}
-.navbar_items>ul>li>span{
     font-family: Mulish;
 font-size: 8px;
-font-weight: 500;
+font-weight: 600;
 line-height: 10.04px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-width: 30px;
-height: 10px;
-gap: 0px;
-opacity: 0px;
+}
+.product_pvt_ltd_content,.footer2_mid{
+    margin-top: 3px;
+}
+.footer_mid>ul>li,.footer_mid1>ul>li,.footer_right>ul>li{
+    margin-bottom:5px;
 
 }
-.navbar_left,.navbar_right{
-    position: relative;
-    width: Fixed (222px)px;
-height: Hug (10px)px;
-top: 14px;
-left: 8px;
-gap: 0px;
-display:flex ;
-justify-content: space-between;
-opacity: 0px;
+.footer2_left,.footer2_mid,.footer2_right{
+    width: 33.33%;
+}
+.etdo{
+    font-family: Mulish;
+font-size: 12px;
+font-weight: 700;
+line-height: 15.06px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-left: 10px;
+}
 
-} */
-
-
-
-
+.footer_left>p{
+    padding-top: 5px;
+    font-family: Mulish;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 14.04px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;   
+}
+.mail,.product_pvt_ltd{
+    display: flex;
+}
+.mail_icon{
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.product_pvt_ltd_icon{
+    /* margin-top: 2px; */
+    /* margin-right: 3px;   */
+}
+.mail_content>a{
+    font-family: Mulish;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10.04px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: auto;
+    color: #CACACA !important;
+}
+.social_media{
+    margin-top: 4px;
+}
+.full_bottom_border{
+    border-bottom: 1px solid #FFF4E999;
+    width: 100%;
+    margin-bottom: 5px;
+}
+/* .diamond_frame{
+    width: Hug (263.92px)px;
+    height: Hug (10.45px)px;
+   margin-top: 60px;
+} */ 
+ .main_jewellery{
+    display: flex;
+    justify-content: center;
+ }
